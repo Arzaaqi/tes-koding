@@ -56,7 +56,7 @@ class ProductController extends Controller
      */
     public function update(UpdateRequest $request, string $id)
     {
-        $product = Product::findOrFail($id);
+        $product = Product::lockForUpdate()->findOrFail($id);
 
         $product->update($request->all());
 
