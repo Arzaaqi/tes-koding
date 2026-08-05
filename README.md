@@ -1,8 +1,8 @@
 # Inventory Management REST API
 REST API sederhana menggunakan Laravel untuk mengelola data produk beserta transaksi stok masuk dan stok keluar.
 ## Tech Stack
-* Laravel 12 (atau versi yang digunakan)
-* PHP 8.2+
+* Laravel 12 
+* PHP 8.3
 * MySQL
 ---
 # Cara Install Project
